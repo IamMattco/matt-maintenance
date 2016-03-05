@@ -29068,6 +29068,8 @@ $(function(){
       $('.fadeinModal').fadeOut('slow', function(){
         $(this).removeClass('hide', 1000);
       });
+    } else {
+      return true;
     }
   });
 });
