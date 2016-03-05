@@ -43,19 +43,34 @@
 
         // Example section
 
-        // $this->sections[] = array(
-        //   'title'   => 'Home',
-        //   'icon'    => 'el-icon-home',
-        //   'heading' => 'Example section',
-        //   'desc'    => '<br />Example section description<br />',
-        //   'fields'  => array(
-        //     array(
-        //       'id'    => 'example',
-        //       'type'  => 'text',
-        //       'title' => 'example content'
-        //     )
-        //   )
-        // );
+        $this->sections[] = array(
+          'title'   => 'Home',
+          'icon'    => 'el-icon-home',
+          'heading' => 'Home section',
+          'desc'    => '<br />Home section settings<br />',
+          'fields'  => array(
+            array(
+              'id'    => 'logo',
+              'type'  => 'text',
+              'title' => 'Logo url'
+            ),
+            array(
+              'id'    => 'title',
+              'type'  => 'text',
+              'title' => 'Home title'
+            ),
+            array(
+              'id'    => 'message',
+              'type'  => 'textarea',
+              'title' => 'Home message'
+            ),
+            array(
+              'id'    => 'contact',
+              'type'  => 'textarea',
+              'title' => 'Contact section'
+            ),
+          )
+        );
 
         // SETTINGS
 

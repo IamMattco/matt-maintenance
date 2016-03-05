@@ -1,0 +1,41 @@
+nav {
+  @extend .wf;
+  position: absolute;
+  z-index: 1;
+  .logo {
+    float: left;
+    img {
+      margin: 20px 0;
+      width: auto;
+      height: 50px;
+      float: left;
+    }
+  }
+  .menu {
+    margin: 20px 20px 0 0;
+    float: right;
+    li {
+      display: inline;
+      float: left;
+      a {
+        font-size: 2rem;
+        color: #fff;
+        padding: 5px 10px;
+        float: left;
+        &:hover,
+        &.active {
+          background: #291129;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .nav-right {
+    margin: 20px 20px 0 0;
+    float: right;
+    i {
+      font-size: 4rem;
+      color: #fff;
+    }
+  }
+}
