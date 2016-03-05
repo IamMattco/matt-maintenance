@@ -28,3 +28,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 .sass-cache
+
+# Node
+node_modules
